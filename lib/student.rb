@@ -5,9 +5,12 @@ class Student < User
     @knowledge = []
   end
   
-  def learn 
+  def learn(String)
+    @knowledge << String
   end 
   
-  def 
+  def knowledge 
+    @knowledge
+  end
   
 end
